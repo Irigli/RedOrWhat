@@ -1,0 +1,222 @@
+.App {
+  text-align: center;
+  background: linear-gradient(to bottom, rgb(236, 214, 205),rgb(255, 255, 255));
+  height: 100%;
+  list-style-type: georgian;
+}
+
+
+/* Card styling */
+.add{
+  background-image: url(https://www.victoriasgourmet.com/wp-content/uploads/2017/03/Grape-Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: darkred;
+}
+
+.form{
+  margin: auto;
+  width: 70%;
+  display: flex;
+  gap: 5rem;
+}
+.form>.content2{
+    background-color: transparent;
+    border-radius: 4px;
+    color: darkred;
+    font-size: bold;
+    flex: 1;
+    padding: 3rem 4.6rem 3rem 3rem;
+    margin: 3rem 0rem;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 7px 14px black,
+    0 6px 6px rgba(0, 0, 0, 0.205);
+}
+.div-display{
+  margin:2rem 0;
+  background-image: url('https://thumbs.dreamstime.com/b/art-autumn-countryside-wine-background-vine-red-wine-bottles-wineglass-wine-barrel-wine-tasting-concept-autumn-countryside-wine-159369848.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h3{
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.galery{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.content1 {
+  width: 20%;
+  margin: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-top: 10px;
+  box-shadow: 0 14px 28px black,
+  0 10px 10px rgba(0, 0, 0, 0.205);
+  transition: .4s;
+  background-color: rgb(227, 202, 187);
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.content1:hover {
+  box-shadow: 0 3px 6px rgb(22, 22, 22),
+  0 3px 6px black;
+  transform: translate(0px, -8px);
+}
+.content1 img{
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+.content1 p {
+  text-align: center;
+  color: #1462a7;
+  padding-top: 0 8px;
+
+}
+.content1 h6 {
+  font-size: 26px;
+  text-align: center;
+  color: #282c34;
+  margin: 0;
+}
+@media  (max-width:1000px) {
+  .content1{
+    width: 45%;
+  }
+  
+}
+@media  (max-width:750px) {
+  .content1{
+    width: 100%;
+  }
+  .form{
+    flex-direction: column;
+    
+  }
+  .form>.content2{
+    width: 90%;
+    margin: auto;
+  }
+}
+
+
+/* Form  styling*/
+form {
+  /* width: 80%; */
+  margin: 0 auto;
+  padding: 4rem 0rem;
+}
+
+.div-list{
+  margin: 7rem 5rem;
+}
+.div-list input {
+  margin: 2rem;
+}
+.header .content1{
+  padding: 0 10px;
+}
+.content1 label{
+  margin: .7rem;
+}
+.content1 input{
+  border:2px solid#5b5e62;
+  margin-bottom: 5px;
+}
+
+
+/* Home page css*/
+
+.header{
+  background-image: url('https://img.freepik.com/premium-photo/frame-made-grapes-black-juicy-grapes-vintage-dark-concrete-background-copy-space-text-menu-black-scuffed-background-frame-border-made-grape-fruits-with-place-text_221542-2297.jpg?w=2000');
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+}
+.home-text{
+  padding-top: 15rem;
+}
+
+.home-text{
+  color:darkred;
+  font-size: 100px;
+  font-weight: bold;
+}
+/* Nav bar */
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 10vh;
+  background-color: whitesmoke;
+}
+.nav__brand {
+  text-transform: uppercase;
+  font-weight: bold; 
+}
+/* login form */
+.login-form p{
+  color: rgb(206, 40, 40);
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.login-form {
+  padding: 6rem 0;
+  width: 50%;
+  margin: 0 auto;
+}
+.login-form form{
+  border:9px solid #ce8181;
+  border-radius: 5px;
+  background-color: rgb(222, 200, 168);
+
+}
+label{
+  margin: 2rem;
+  font-size: 1.5rem;
+}
+.login-form h2{
+  color: #282c34;
+  font-weight: bold;
+}
+
+
+/* header */
+.nav ul li:nth-child(5){
+  display: flex;
+  gap: 2rem;
+}
+.brand {
+  text-decoration: none;
+  color: darkgray;
+}
+.nav__menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+/* Footer css */
+footer li{
+  list-style: none;
+}
